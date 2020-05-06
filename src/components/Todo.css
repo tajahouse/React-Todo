@@ -8,7 +8,10 @@ body {
 }
 
 body {
-  background-color: #2d2d37;
+  background-image: url(../img/absolutvision-82TpEld0_e4-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+
 }
 
 h1,
@@ -20,7 +23,7 @@ h6,
 div,
 p,
 span {
-  color: white;
+  color: rgb(243, 10, 10);
   font-family: 'Roboto', sans-serif;
 }
 
@@ -36,7 +39,9 @@ span {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 2.5rem;
 }
+
 h1 {
   text-align: left;
 }
@@ -49,7 +54,7 @@ h1 {
   margin: 0 auto;
 }
 .entry {
-  background-color: #e64944;
+  background-color: hsl(61, 85%, 55%);
   width: 45%;
   text-align: left;
   margin: 4px 0;
@@ -58,7 +63,7 @@ h1 {
 }
 
 .entry.completed {
-  background-color: #d17d7c;
+  background-color: #bab0af;
   text-decoration: line-through;
 }
 form {
@@ -67,27 +72,27 @@ form {
   justify-content: flex-end;
 }
 form > input {
-  background-color: #2d2d37;
+  background-color: #f0f32f;
   border: 0;
   padding: 6px 0;
   font-size: 1rem;
   width: 240px;
   outline: 0;
-  color: white;
-  border-bottom: 1px solid #e64944;
+  color: rgb(240, 15, 15);
+  border-bottom: 1px solid  hsl(30, 2%, 32%);
   margin-right: 8px;
 }
 
 button {
-  background-color: #e64944;
-  border: 1px solid #e64944;
-  color: white;
+  background-color:  hsl(30, 3%, 47%);
+  border: 1px solid  hsl(30, 29%, 93%);
+  color: rgb(241, 234, 229);
   font-size: 16px;
   padding: 6px 14px;
 }
 
 input::placeholder {
-  color: #e64944;
+  color:  hsl(0, 96%, 52%);
   opacity: 1;
 }
 
