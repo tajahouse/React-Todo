@@ -54,7 +54,8 @@ h1 {
   margin: 0 auto;
 }
 .entry {
-  background-color: hsl(61, 85%, 55%);
+  background-color: hsl(60, 8%, 57%);
+  border: 1px double white;
   width: 45%;
   text-align: left;
   margin: 4px 0;
@@ -62,9 +63,11 @@ h1 {
   cursor: pointer;
 }
 
-.entry.completed {
-  background-color: #bab0af;
+.entrycompleted {
+  background-color: #f8f5f5;
   text-decoration: line-through;
+  width:45%;
+  text-align: left;
 }
 form {
   width: 50%;
@@ -72,7 +75,7 @@ form {
   justify-content: flex-end;
 }
 form > input {
-  background-color: #f0f32f;
+  background-color: #dddd1a;
   border: 0;
   padding: 6px 0;
   font-size: 1rem;

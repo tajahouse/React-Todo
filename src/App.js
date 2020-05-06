@@ -2,6 +2,7 @@ import React from 'react';
 import TodoList from "./components/TodoList";
 import TodoForm from "./components/TodoForm";
 import "../src/components/Todo.css"
+
 const list = [
   {
     task: "Go to the mall",
@@ -25,7 +26,7 @@ class App extends React.Component {
         if(entryId === entry.id) {
           return{
             ...entry,
-            completed: !list.completed
+            completed: !entry.completed
           }
         }
         return entry;
