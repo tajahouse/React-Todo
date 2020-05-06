@@ -5,8 +5,8 @@ import "../src/components/Todo.css"
 
 const list = [
   {
-    task: "Go to the mall",
-    id:Date.now(),
+    task: "",
+    id:'',
     completed:false
   }
 ]
